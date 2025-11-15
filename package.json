@@ -1,0 +1,19 @@
+{
+  "name": "vitacordis-11ty",
+  "version": "1.0.0",
+  "description": "Website institucional da clínica VitaCordis.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-personal:synapse-alcance/vitacordis-11ty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC BY-ND 4.0",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
