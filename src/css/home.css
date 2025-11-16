@@ -140,8 +140,8 @@
     object-position: 50% 30%;
 }
 
-/* Services Section ------------------------------------- */
-.services {
+/* Seção Serviços ----------------------------------------------------------- */
+.servicos {
     max-width: var(--size-lg, 1024px);
     padding: var(--size-fluid-6) 0;
     margin: 0 auto;
@@ -150,12 +150,12 @@
     background-repeat: repeat;
 }
 
-.services h2 {
+.servicos h2 {
     color: var(--rose-2);
     text-align: center;
 }
 
-.services-card {
+.servicos-cartao {
     display: flex;
     align-items: stretch;
     width: 80%;
@@ -166,24 +166,24 @@
     overflow: hidden;
 }
 
-.services-card-img {
+.servicos-cartao-img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
     flex: 1;
 }
 
-.services-card-text {
+.servicos-cartao-texto {
     background-color: rgba(194 150 138 / 0.3);
     padding: var(--size-2) var(--size-4);
     flex: 2;
 }
 
-.services-card-text h3 {
+.servicos-cartao-texto h3 {
     color: var(--pistachio-1);
 }
 
-.services-card-text p {
+.servicos-cartao-texto p {
     color: var(--off-white-4);
 }
 

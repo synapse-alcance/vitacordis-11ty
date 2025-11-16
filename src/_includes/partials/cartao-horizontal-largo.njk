@@ -1,0 +1,12 @@
+<div class="servicos-cartao {% if artigo.inverter %} linha-inversa {% endif %}">
+  <div class="servicos-cartao-img" style="background-image: url({{ artigo.imgSrc }});" role="img" aria-label="{{ artigo.imgAlt }}">
+  </div>
+  <div class="servicos-cartao-texto">
+    {% if artigo.titulo %}
+    <h3>{{ artigo.titulo }}</h3>
+    {% endif %}
+    {% for paragrafo in artigo.paragrafos %}
+      <p>{{ paragrafo | safe }}</p>
+    {% endfor %}
+  </div>
+</div>
