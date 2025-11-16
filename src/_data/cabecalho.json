@@ -1,0 +1,37 @@
+{
+  "links": [
+    {
+      "texto": "Home",
+      "url": "/",
+      "separador": true
+    },
+    {
+      "texto": "Sobre",
+      "url": "/sobre/",
+      "separador": true
+    },
+    {
+      "texto": "Equipe",
+      "url": "/equipe/",
+      "separador": true
+    },
+    {
+      "texto": "Serviços",
+      "url": "/servicos/",
+      "separador": true
+    },
+    {
+      "texto": "Perguntas",
+      "url": "/perguntas/",
+      "separador": true
+    },
+    {
+      "texto": "Contato",
+      "url": "/contato/",
+      "separador": false
+    }
+  ],
+  "logoArquivo": "./img/marca_horizontal_transparente.webp",
+  "logoAlt": "Logo do Instituto VitaCordis",
+  "whatsapp": "5531997647896"
+}
