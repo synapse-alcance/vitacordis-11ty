@@ -43,3 +43,10 @@ transicaoBanner: true
 		{% endfor %}
 	</div>
 </section>
+
+<section class="secao" id="porque">
+	<h2 class="porque-titulo">Porque nos escolher?</h2>
+	{% for artigo in home.porque.artigos %}
+		{% include "partials/artigo-lado-a-lado.njk" %}
+	{% endfor %}
+</section>

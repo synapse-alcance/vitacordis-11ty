@@ -109,5 +109,34 @@
         ]
       }
     ]
+  },
+  "porque": {
+    "artigos": [
+      {
+        "inverter": false,
+        "imgSrc": "./img/socias.webp",
+        "imgAlt": "Foto das doutoras Flávia e Marida lado-a-lado, sorrindo com braços cruzados.",
+        "imgCentro": true,
+        "pCondensado": true,
+        "paragrafos": [
+          {
+            "titulo": "Especialização desde o pré-natal",
+            "conteudo": "Acompanhamos o coração do seu bebê desde a gestação, com exames precisos e orientação acolhedora."
+          },
+          {
+            "titulo": "Equipe dedicada e experiente",
+            "conteudo": "Cardiologistas pediátricos com formação sólida e paixão por cuidar de crianças."
+          },
+          {
+            "titulo": "Atendimento moderno e acessível",
+            "conteudo" :"Consultas presenciais, por telemedicina ou domiciliares, com prontuário digital e suporte."
+          },
+          {
+            "titulo": "Atendimento moderno e acessível",
+            "conteudo" :"Espaços acolhedores, linguagem simples e atenção às necessidades dos pais e dos pequenos."
+          }
+        ]
+      }
+    ]
   }
 }
