@@ -1,0 +1,18 @@
+let swiperHero = new Swiper(".swiper-hero", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    effect: "fade",
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+});
+
+let swiperTestemunhos = new Swiper(".swiper-testemunhos", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
