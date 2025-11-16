@@ -8,11 +8,11 @@ let swiperHero = new Swiper(".hero-swiper", {
     },
 });
 
-let swiperTestemunhos = new Swiper(".swiper-testemunhos", {
+let swiperTestemunhos = new Swiper(".testemunhos-swipper", {
     slidesPerView: 3,
     spaceBetween: 30,
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-proximo",
+        prevEl: ".swiper-anterior",
     },
 });
