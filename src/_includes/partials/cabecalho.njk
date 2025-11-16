@@ -1,0 +1,24 @@
+<div class="cabecalho cabecalho-transicao rolado">
+  <div class="cabecalho-conteudo">
+    <a aria-label="VitaCordis - Home" class="logo" href="/">
+      <img class="logo-img" src={{ cabecalho.logoArquivo }} alt={{ cabecalho.logoAlt }}>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-lista">
+        {% for link in cabecalho.links %}
+        <li class="nav-link">
+          <a href="{{ link.url }}" target="_self">{{ link.texto }}</a>
+        </li>
+        {% if link.separador %}
+        <li class="nav-separador"></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+    <a class="cabecalho-botao" href="https://wa.me/{{ cabecalho.whatsapp }}/" target="_blank">
+      <svg>
+        <use xlink:href="#icone-telefone"></use>
+      </svg> Agendar
+    </a>
+  </div>
+</div>
