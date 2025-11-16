@@ -1,4 +1,9 @@
 /* Estilos comuns ----------------------------------------------------------- */
+.secao-titulo {
+    text-align: center;
+    margin-bottom: var(--size-fluid-4);
+}
+
 .lal {
     display: flex;
     justify-content: space-around;
@@ -207,12 +212,6 @@
 
 .servicos-cartao-texto p {
     color: var(--off-white-4);
-}
-
-/* Seção Porque ------------------------------------------------------------- */
-.porque-titulo {
-    text-align: center;
-    margin-bottom: var(--size-fluid-4);
 }
 
 /* Testimonials Section --------------------------------- */
