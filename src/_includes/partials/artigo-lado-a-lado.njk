@@ -1,8 +1,8 @@
-<div class="dupla-coluna {% if artigo.inverter %} linha-inversa {% endif %}">
-  <div class="dupla-coluna-img" style="background-image: url({{ artigo.imgSrc }});" role="img" aria-label="{{ artigo.imgAlt }}">
+<div class="lal {% if artigo.inverter %} linha-inversa {% endif %}">
+  <div class="lal-img {% if artigo.imgCentro %} lal-img-centro {% endif %}" style="background-image: url({{ artigo.imgSrc }});" role="img" aria-label="{{ artigo.imgAlt }}">
   </div>
-  <div class="coluna-dupla-separador"></div>
-  <div class="dupla-coluna-texto">
+  <div class="lal-separador"></div>
+  <div class="lal-texto">
     {% if artigo.titulo %}
     <h2>{{ artigo.titulo }}</h2>
     {% endif %}
@@ -10,7 +10,9 @@
       {% if paragrafo.titulo %}
       <h3>{{ paragrafo.titulo }}</h3>
       {% endif %}
-      <p>{{ paragrafo.conteudo | safe }}</p>
+      <p {% if artigo.pCondensado %} class="lal-texto-condensado" {% endif %}>
+        {{ paragrafo.conteudo | safe }}
+      </p>
     {% endfor %}
   </div>
 </div>

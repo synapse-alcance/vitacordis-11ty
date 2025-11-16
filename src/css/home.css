@@ -1,5 +1,5 @@
 /* Estilos comuns ----------------------------------------------------------- */
-.dupla-coluna {
+.lal {
     display: flex;
     justify-content: space-around;
     align-items: stretch;
@@ -9,26 +9,48 @@
     padding: 0 var(--size-fluid-3);
 }
 
-.dupla-coluna-texto {
+.lal-texto {
     flex: 1;
 }
 
-.dupla-coluna-texto h2 {
+.lal-texto-condensado {
+    margin: 0;
+    margin-bottom: var(--size-4);
+}
+
+.lal-texto h2 {
     text-align: center;
 }
 
-.dupla-coluna-separador {
+.lal-texto h3 {
+    font-family: "Roboto Flex", Arial, sans-serif;
+    font-size: 1rem;
+    color: var(--foreground-muted);
+    margin: 0;
+    margin-bottom: var(--size-2);
+}
+
+.lal-texto h3:first-of-type {
+    margin-top: var(--size-4);
+}
+
+.lal-separador {
     background-color: var(--marsala-2);
     width: 1px;
 }
 
-.dupla-coluna-img {
+.lal-img {
     border-radius: var(--radius-3);
     box-shadow: var(--floating-shadow);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
     flex: 1;
+}
+
+.lal-img-centro {
+    background-position: 50% 0%;
+    background-size: cover;
 }
 
 .linha-inversa {
