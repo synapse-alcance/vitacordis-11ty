@@ -14,5 +14,20 @@
         "imgAlt": "Doutora Marina em foto de busto em frente a equipamento médico."
       }
     ]
+  },
+  "sobre": {
+    "artigos": [
+      {
+        "inverter": true,
+        "imgSrc": "./img/cardiologia-pediatrica.webp",
+        "imgAlt": "Mãos da médica juntas, formando uma concha, com um modelo de coração infantil repousando no meio.",
+        "titulo": "Conheça o Instituto", 
+        "paragrafos": [
+          "O VitaCordis é um instituto especializado em cardiologia fetal e pediátrica, criado para oferecer cuidado integral desde o pré-natal até a adolescência. Combinamos tecnologia atual, experiência médica e acolhimento verdadeiro para orientar famílias em todas as fases da jornada cardiológica.",
+          "Nosso espaço foi pensado para ser leve, seguro e acessível, com atendimento humanizado e condutas baseadas em evidências. Aqui, cada batida conta — e cada paciente é recebido com atenção, empatia e segurança.",
+          "Seja para rastreio fetal, diagnóstico de cardiopatias congênitas ou acompanhamento clínico, estamos prontos para cuidar com excelência e sensibilidade."
+        ]
+      }
+    ]
   }
 }

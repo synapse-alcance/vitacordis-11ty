@@ -28,3 +28,9 @@ transicaoBanner: true
 			</div>
 	</div>
 </section>
+
+<section class="secao" id="sobre">
+	{% for artigo in home.sobre.artigos %}
+		{% include "partials/artigo-dupla-coluna.njk" %}
+	{% endfor %}
+</section>
