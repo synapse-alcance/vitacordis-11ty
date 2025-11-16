@@ -29,10 +29,10 @@ p {
 }
 
 .debug-box {
-    border: 1px dashed red;
+    outline: 1px dashed red;
 }
 
-.section {
+.secao {
     margin: var(--size-fluid-7) 0;
     background-color: var(--off-white-2);
 }
