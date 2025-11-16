@@ -34,3 +34,12 @@ transicaoBanner: true
 		{% include "partials/artigo-dupla-coluna.njk" %}
 	{% endfor %}
 </section>
+
+<section class="secao" id="servicos">
+	<div class="servicos">
+		<h2>Nossos Serviços</h2>
+		{% for artigo in home.servicos.artigos %}
+			{% include "partials/cartao-horizontal-largo.njk" %}
+		{% endfor %}
+	</div>
+</section>
