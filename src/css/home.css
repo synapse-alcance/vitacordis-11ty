@@ -1,5 +1,5 @@
-/* Shared Styles ---------------------------------------- */
-.double-column {
+/* Estilos comuns ----------------------------------------------------------- */
+.dupla-coluna {
     display: flex;
     justify-content: space-around;
     align-items: stretch;
@@ -9,20 +9,20 @@
     padding: 0 var(--size-fluid-3);
 }
 
-.double-column-text {
+.dupla-coluna-texto {
     flex: 1;
 }
 
-.double-column-text h2 {
+.dupla-coluna-texto h2 {
     text-align: center;
 }
 
-.double-column-separator {
+.dupla-coluna-separador {
     background-color: var(--marsala-2);
     width: 1px;
 }
 
-.double-column-img {
+.dupla-coluna-img {
     border-radius: var(--radius-3);
     box-shadow: var(--floating-shadow);
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@
     flex: 1;
 }
 
-.row-reverse {
+.linha-inversa {
     flex-direction: row-reverse;
 }
 

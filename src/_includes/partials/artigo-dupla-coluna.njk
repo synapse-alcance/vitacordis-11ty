@@ -1,0 +1,13 @@
+<div class="dupla-coluna {% if artigo.inverter %} linha-inversa {% endif %}">
+  <div class="dupla-coluna-img" style="background-image: url({{ artigo.imgSrc }});" role="img" aria-label="{{ artigo.imgAlt }}">
+  </div>
+  <div class="coluna-dupla-separador"></div>
+  <div class="dupla-coluna-texto">
+    {% if artigo.titulo %}
+    <h2>{{ artigo.titulo }}</h2>
+    {% endif %}
+    {% for paragrafo in artigo.paragrafos %}
+      <p>{{ paragrafo | safe }}</p>
+    {% endfor %}
+  </div>
+</div>
