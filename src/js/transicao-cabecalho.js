@@ -1,11 +1,11 @@
   document.addEventListener('DOMContentLoaded', function () {
-    const navbar = document.querySelector('.header-transition');
+    const navbar = document.querySelector('.cabecalho-transicao');
 
     function toggleHeaderBackground() {
       if (window.scrollY > 50) {
-        navbar.classList.add('scrolled');
+        navbar.classList.add('rolado');
       } else {
-        navbar.classList.remove('scrolled');
+        navbar.classList.remove('rolado');
       }
     }
 
