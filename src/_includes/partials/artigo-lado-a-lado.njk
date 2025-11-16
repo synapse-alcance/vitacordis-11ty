@@ -7,6 +7,9 @@
     <h2>{{ artigo.titulo }}</h2>
     {% endif %}
     {% for paragrafo in artigo.paragrafos %}
+      {% if paragrafo.titulo %}
+      <h3>{{ paragrafo.titulo }}</h3>
+      {% endif %}
       <p>{{ paragrafo.conteudo | safe }}</p>
     {% endfor %}
   </div>
