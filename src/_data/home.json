@@ -23,9 +23,15 @@
         "imgAlt": "Mãos da médica juntas, formando uma concha, com um modelo de coração infantil repousando no meio.",
         "titulo": "Conheça o Instituto",
         "paragrafos": [
-          "O VitaCordis é um instituto especializado em cardiologia fetal e pediátrica, criado para oferecer cuidado integral desde o pré-natal até a adolescência. Combinamos tecnologia atual, experiência médica e acolhimento verdadeiro para orientar famílias em todas as fases da jornada cardiológica.",
-          "Nosso espaço foi pensado para ser leve, seguro e acessível, com atendimento humanizado e condutas baseadas em evidências. Aqui, cada batida conta — e cada paciente é recebido com atenção, empatia e segurança.",
-          "Seja para rastreio fetal, diagnóstico de cardiopatias congênitas ou acompanhamento clínico, estamos prontos para cuidar com excelência e sensibilidade."
+          {
+            "conteudo": "O VitaCordis é um instituto especializado em cardiologia fetal e pediátrica, criado para oferecer cuidado integral desde o pré-natal até a adolescência. Combinamos tecnologia atual, experiência médica e acolhimento verdadeiro para orientar famílias em todas as fases da jornada cardiológica."
+          },
+          {
+            "conteudo": "Nosso espaço foi pensado para ser leve, seguro e acessível, com atendimento humanizado e condutas baseadas em evidências. Aqui, cada batida conta — e cada paciente é recebido com atenção, empatia e segurança."
+          },
+          {
+            "conteudo" :"Seja para rastreio fetal, diagnóstico de cardiopatias congênitas ou acompanhamento clínico, estamos prontos para cuidar com excelência e sensibilidade."
+          }
         ]
       }
     ]
@@ -38,8 +44,12 @@
         "imgAlt": "Parte superior do corpo de uma mulher grávida segurando a barriga com ambas as mãos, formando a silhueta de um coração em cima do umbigo.",
         "titulo": "Cardiologia fetal: aconselhamento e monitoramento completo",
         "paragrafos": [
-          "Oferecemos acompanhamento cardiológico durante toda a gestação, com foco em orientar mães e famílias sobre saúde cardíaca fetal. Na consulta de aconselhamento e avaliação, avaliamos risco de malformações e orientamos sobre exames, dietas e cuidados necessários. Para quem necessita de imagem, incluímos o ecocardiograma fetal, proporcionando visão detalhada do desenvolvimen-to do coração do bebê.",
-          "Nosso objetivo é detectar precocemente qualquer alteração e guiar um plano de acompanhamento seguro, minimizando ansiedades e preparando o time médico e os pais para cada etapa da gestação."
+          {
+            "conteudo": "Oferecemos acompanhamento cardiológico durante toda a gestação, com foco em orientar mães e famílias sobre saúde cardíaca fetal. Na consulta de aconselhamento e avaliação, avaliamos risco de malformações e orientamos sobre exames, dietas e cuidados necessários. Para quem necessita de imagem, incluímos o ecocardiograma fetal, proporcionando visão detalhada do desenvolvimen-to do coração do bebê."
+          },
+          {
+            "conteudo": "Nosso objetivo é detectar precocemente qualquer alteração e guiar um plano de acompanhamento seguro, minimizando ansiedades e preparando o time médico e os pais para cada etapa da gestação."
+          }
         ]
       },
       {
@@ -48,8 +58,12 @@
         "imgAlt": "Profissional em trajes clínicos abaixada na altura dos olhos de uma criança, com ambas com expressão de um sorriso descontraído.",
         "titulo": "Cardiologia pediátrica: diagnóstico, rastreio e avaliação de risco",
         "paragrafos": [
-          "A consulta de cardiologia pediátrica engloba avaliação clínica, eletrocardiograma e  interpretação de exames para bebês e crianças, já diagnosticados ou em investigação de  cardiopatias congênitas. Para sinais de suspeita, oferecemos o ecocardiograma pediátrico integrado à consulta, garantindo diagnóstico precoce e plano terapêutico adequado.",
-          "Avaliamos ainda risco cirúrgico, fornecendo laudos e pareceres que orientam pediatras e cirurgiões antes de qualquer procedimento. Tudo isso com equipe especializada e comunicação clara para que pais e responsáveis se sintam seguros a cada etapa do cuidado."
+          {
+            "conteudo": "A consulta de cardiologia pediátrica engloba avaliação clínica, eletrocardiograma e  interpretação de exames para bebês e crianças, já diagnosticados ou em investigação de  cardiopatias congênitas. Para sinais de suspeita, oferecemos o ecocardiograma pediátrico integrado à consulta, garantindo diagnóstico precoce e plano terapêutico adequado."
+          },
+          {
+            "conteudo": "Avaliamos ainda risco cirúrgico, fornecendo laudos e pareceres que orientam pediatras e cirurgiões antes de qualquer procedimento. Tudo isso com equipe especializada e comunicação clara para que pais e responsáveis se sintam seguros a cada etapa do cuidado."
+          }
         ]
       },
       {
@@ -58,8 +72,12 @@
         "imgAlt": "Foto instantânea de uma criança pairando no ar no meio de uma brincadeira ao ar livre em cima de um gramado verde e iluminada pelo sol, com os braços e pernas abertas em movimento de salto.",
         "titulo": "Avaliação cardíaca para atividade física infantil",
         "paragrafos": [
-          "Pensada para jovens atletas e crianças ativas, nossa avaliação esportiva inclui histórico clínico, eletrocardiograma e exame físico detalhado para liberar a prática de atividades. Na versão com ecocardiograma pediátrico, mapeamos estrutura e função cardíaca, evitando riscos durante exercícios mais intensos.",
-          "Fornecemos um laudo claro, orientações sobre frequência e intensidade ideais de treino e alertas sobre sinais de alerta que exigem reavaliação. Nosso objetivo é promover saúde e desempenho, garantindo que cada batida acompanhe o ritmo dos pequenos com segurança e confiança."
+          {
+            "conteudo": "Pensada para jovens atletas e crianças ativas, nossa avaliação esportiva inclui histórico clínico, eletrocardiograma e exame físico detalhado para liberar a prática de atividades. Na versão com ecocardiograma pediátrico, mapeamos estrutura e função cardíaca, evitando riscos durante exercícios mais intensos."
+          },
+          {
+            "conteudo": "Fornecemos um laudo claro, orientações sobre frequência e intensidade ideais de treino e alertas sobre sinais de alerta que exigem reavaliação. Nosso objetivo é promover saúde e desempenho, garantindo que cada batida acompanhe o ritmo dos pequenos com segurança e confiança."
+          }
         ]
       },
       {
@@ -68,8 +86,12 @@
         "imgAlt": "Profissional da área médica em trajes clínicos, estetoscópico ao redor do pescoço, tomando nota com prancheta nas mãos, com expressão de seriedade.",
         "titulo": "Consultas de revisão e atendimento sob medida",
         "paragrafos": [
-          "Revisamos condutas cardíacas pediátricas com análises de laudos, ajustes de medicação e orientações atualizadas, garantindo que o tratamento acompanhe o crescimento da criança. Oferecemos também consultas à distância, via telemedicina, para facilitar acesso de famílias por todo o país.",
-          "Para maior comodidade, realizamos atendimento domiciliar ou hospitalar para consultas e exames, reduzindo deslocamentos e evitando o estresse dos pequenos. Com flexibilidade de horário e relatórios digitais, conectamos a expertise clínica ao conforto que os pais das novas gerações valorizam."
+          {
+            "conteudo": "Revisamos condutas cardíacas pediátricas com análises de laudos, ajustes de medicação e orientações atualizadas, garantindo que o tratamento acompanhe o crescimento da criança. Oferecemos também consultas à distância, via telemedicina, para facilitar acesso de famílias por todo o país."
+          },
+          {
+            "conteudo": "Para maior comodidade, realizamos atendimento domiciliar ou hospitalar para consultas e exames, reduzindo deslocamentos e evitando o estresse dos pequenos. Com flexibilidade de horário e relatórios digitais, conectamos a expertise clínica ao conforto que os pais das novas gerações valorizam."
+          }
         ]
       },
       {
@@ -78,8 +100,12 @@
         "imgAlt": "Foto de lado de profissional da área médica com expressão de concentração, com equipamentos de imageamento médico ao fundo.",
         "titulo": "Exames diagnósticos de precisão",
         "paragrafos": [
-          "Contamos com ecocardiograma pediátrico e fetal para imagens em tempo real do coração, avaliando anatomia, fluxo sanguíneo e funcionamento de câmaras e válvulas. O eletrocardiograma registra a atividade elétrica cardíaca, identificando arritmias, bloqueios ou alterações de condução em qualquer faixa etária.",
-          "Cada exame é realizado por técnicos especializados e revisado por cardiologistas infantis, oferecendo laudos rápidos e detalhados. Esses testes são fundamentais para triagem de risco, acompanha-mento pós-tratamento e planejamento de condutas, assegurando a saúde do coração dos seus pequenos desde o início."
+          {
+            "conteudo": "Contamos com ecocardiograma pediátrico e fetal para imagens em tempo real do coração, avaliando anatomia, fluxo sanguíneo e funcionamento de câmaras e válvulas. O eletrocardiograma registra a atividade elétrica cardíaca, identificando arritmias, bloqueios ou alterações de condução em qualquer faixa etária."
+          },
+          {
+            "conteudo": "Cada exame é realizado por técnicos especializados e revisado por cardiologistas infantis, oferecendo laudos rápidos e detalhados. Esses testes são fundamentais para triagem de risco, acompanha-mento pós-tratamento e planejamento de condutas, assegurando a saúde do coração dos seus pequenos desde o início."
+          }
         ]
       }
     ]
