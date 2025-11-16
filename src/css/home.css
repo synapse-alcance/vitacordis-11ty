@@ -35,7 +35,7 @@
     flex-direction: row-reverse;
 }
 
-/* Hero Section ----------------------------------------- */
+/* Seção Hero --------------------------------------------------------------- */
 .hero {
     display: flex;
     align-items: center;
@@ -44,7 +44,7 @@
     height: 100vh;
 }
 
-.hero-overlay {
+.hero-sombra {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -52,7 +52,7 @@
     z-index: 10;
 }
 
-.hero-content {
+.hero-conteudo {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -63,38 +63,38 @@
     z-index: 20;
 }
 
-.hero-text {
+.hero-texto {
     display: flex;
     flex-direction: column;
     row-gap: var(--gap-m);
     max-width: 48ch;
 }
 
-.hero-headline {
+.hero-titulo {
     text-align: center;
     font-weight: 400;
     color: var(--off-white-1);
     line-height: var(--font-lineheight-2);
 }
 
-.hero-subheadline {
+.hero-subtitulo {
     text-align: left;
     color: var(--off-white-1);
     font-size: var(--font-size-2);
 }
 
-.hero-accent {
+.hero-destaque {
     color: var(--rose-1);
     font-weight: 700;
 }
 
-.hero-cta {
+.hero-chamada {
     display: flex;
     justify-content: flex-end;
     width: 64ch;
 }
 
-.hero-cta a {
+.hero-chamada a {
     display: block;
     padding: var(--size-2) var(--size-4);
     background-color: transparent;
@@ -110,7 +110,7 @@
         color 0.5s ease;
 }
 
-.hero-cta a:hover {
+.hero-chamada a:hover {
     color: var(--foreground-muted);
     background-color: rgba(254 255 252 / 0.6);
     transition:

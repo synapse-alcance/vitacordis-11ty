@@ -1,4 +1,4 @@
-let swiperHero = new Swiper(".swiper-hero", {
+let swiperHero = new Swiper(".hero-swiper", {
     spaceBetween: 30,
     centeredSlides: true,
     effect: "fade",

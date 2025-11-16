@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "imgSrc": "./img/slide1.webp",
+        "imgAlt": "Doutoras Flávia e Marina lado a lado."
+      },
+      {
+        "imgSrc": "./img/slide2.webp",
+        "imgAlt": "Doutora Flávia com braços cruzados e mão sob o queixo."
+      },
+      {
+        "imgSrc": "./img/slide3.webp",
+        "imgAlt": "Doutora Marina em foto de busto em frente a equipamento médico."
+      }
+    ]
+  }
+}
