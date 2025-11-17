@@ -35,3 +35,20 @@ transicaoBanner: true
     {% endfor %}
   </div>
 </section>
+
+<section class="secao" id="espaco">
+  <h2 class="secao-titulo">Conheça nosso espaço</h2>
+  <div class="swiper espaco-swiper">
+    <div class="swiper-wrapper espaco-swiper-wrapper">
+      {% for slide in espaco.slides %}
+        <div class="swiper-slide"><img src="{{slide.imgSrc}}" alt="{{slide.imgAlt}}"></div>
+      {% endfor %}
+    </div>
+			<button type="button" class="swiper-button-prev" id="espaco-anterior">
+				<svg><use xlink:href="#icone-swiper-anterior"></use></svg>
+			</button>
+			<button type="button" class="swiper-button-next" id="espaco-proximo">
+				<svg><use xlink:href="#icone-swiper-proximo"></use></svg>
+			</button>
+  </div>
+</section>

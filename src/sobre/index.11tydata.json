@@ -82,5 +82,18 @@
         ]
       }
     ]
+  },
+  "espaco": {
+    "slides": [
+      {
+        "imgSrc": "/img/espaco1.webp"
+      },
+      {
+        "imgSrc": "/img/espaco2.webp"
+      },
+      {
+        "imgSrc": "/img/espaco3.webp"
+      }
+    ]
   }
 }

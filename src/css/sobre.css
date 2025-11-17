@@ -81,3 +81,26 @@
 .linha-inversa {
     flex-direction: row-reverse;
 }
+
+.espaco-swiper {
+  max-width: var(--size-lg, 1024px);
+  margin: auto;
+  padding: 0;
+  box-shadow: 5px 5px 10px 5px #80757c99;
+  border-radius: var(--radius-3);
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#espaco-anterior,
+#espaco-proximo {
+  color: var(--off-white-0);
+  background-color: var(--marsala-2);
+  border: 0;
+  border-radius: var(--radius-2);
+}
