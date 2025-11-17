@@ -37,6 +37,11 @@ p {
     background-color: var(--off-white-2);
 }
 
+.secao-titulo {
+    text-align: center;
+    margin-bottom: var(--size-fluid-4);
+}
+
 :root {
     font-family: 'Roboto Flex', Arial, sans-serif;
     background-color: var(--background-primary, rgba(13, 15, 18, 1));
