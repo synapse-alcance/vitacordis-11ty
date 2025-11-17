@@ -1,0 +1,18 @@
+<article class="sobre-artigo {% if artigo.inverter %}linha-inversa{% endif %}">
+  <div class="sobre-artigo-img" style="background-image: url({{artigo.imgSrc}}); background-position-x: {{artigo.imgPosX}}; background-position-y: {{artigo.imgPosY}};"></div>
+  <div class="sobre-artigo-separador"></div>
+  <div class="sobre-artigo-conteudo">
+    <h2 class="sobre-artigo-titulo">{{ artigo.titulo }}</h2>
+    {% for texto in artigo.textos %}
+      {% if texto.lista %}
+      <ul>
+        {% for itemLista in texto.conteudo %}
+          <li>{{ itemLista | safe }}</li>
+        {% endfor %}
+      </ul>
+      {% else %}
+        <p>{{ texto.conteudo }}</p>
+      {% endif %}
+    {% endfor %}
+  </div>
+</article>
