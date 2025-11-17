@@ -138,5 +138,86 @@
         ]
       }
     ]
-  }
+  },
+  "testemunhos": {
+    "slides": [
+      {
+        "imgSrc": "./img/testemunho01.png",
+        "citacao": "\"Fiz meu ecofetal com a Dra. Flávia e gostei muito do atendimento. Ela foi atenciosa, explicou tudo com clareza e me deixou tranquila durante o exame. Recomendo!\"",
+        "fonte": "Clara Isabela Gonçalves",
+        "data": "01/10/2025",
+        "url": "https://maps.app.goo.gl/FgUpaBn5Q9d8K9C57"
+      },
+      {
+        "imgSrc": "./img/testemunho02.png",
+        "citacao": "\"A Dra. Marina é um profissional completa! Comprometida, inteligente e atualizada, explica tudo nos mínimos detalhes sem deixar dúvidas…muuuito atenciosa e carinhosa com os pacientes!\"",
+        "fonte": "Isabela Vasconcellos",
+        "data": "16/10/2025",
+        "url": "https://maps.app.goo.gl/Zz7udS5haHsCHrtC7"
+      },
+      {
+        "imgSrc": "./img/testemunho03.png",
+        "citacao": "\"Dra incrível, sou muito observadora, ela olhou meu bebê com paixão e afeto!! Obrigada Dra Flávia!!\"",
+        "fonte": "Fernanda Xavier",
+        "data": "09/09/2025",
+        "url": "https://maps.app.goo.gl/FgUpaBn5Q9d8K9C57"
+      },
+      {
+        "imgSrc": "./img/testemunho04.png",
+        "citacao": "\"Excelente médica! Clara e objetiva! Além de ser muito carinhosa! Acompanha meu filho desde que nasceu! Super recomendado!\"",
+        "fonte": "Vanessa Miranda",
+        "data": "18/07/2025",
+        "url": "https://maps.app.goo.gl/Zz7udS5haHsCHrtC7"
+      },
+      {
+        "imgSrc": "./img/testemunho05.png",
+        "citacao": "\"A Dra Flávia é maravilhosa! Excelente profissional. Indico de olhos fechados.\"",
+        "fonte": "Francielle Barros",
+        "data": "03/09/2025",
+        "url": "https://maps.app.goo.gl/FgUpaBn5Q9d8K9C57"
+      },
+      {
+        "imgSrc": "./img/testemunho06.png",
+        "citacao": "\"Dra. Marina é uma cardiologista pediátrica excepcional. Extremamente competente, cuidadosa e atenciosa com seus pequenos pacientes.\"",
+        "fonte": "Beatriz Silveira",
+        "data": "03/07/2025",
+        "url": "https://maps.app.goo.gl/Zz7udS5haHsCHrtC7"
+      },
+      {
+        "imgSrc": "./img/testemunho07.png",
+        "citacao": "\"Médica maravilhosa. Super humana, cria um ambiente confortável e carinhoso conosco. Eu e meu marido amamos.\"",
+        "fonte": "Giulia Emerick",
+        "data": "02/09/2025",
+        "url": "https://maps.app.goo.gl/FgUpaBn5Q9d8K9C57"
+      },
+      {
+        "imgSrc": "./img/testemunho08.png",
+        "citacao": "\"Eu amei a Dra. Marina [...]. Ela abraçou a minha causa e me deixou mais tranquila e cheia de esperanças. Sou grata pela vida dela e por tudo que ela fez por nós.\"",
+        "fonte": "Pamela Oliveira",
+        "data": "28/06/2025",
+        "url": "https://maps.app.goo.gl/Zz7udS5haHsCHrtC7"
+      },
+      {
+        "imgSrc": "./img/testemunho09.png",
+        "citacao": "\"Profissional incrível! Explica com paciência, atende com carinho e olha o paciente como um todo. Gratidão por tanto cuidado humano. Super indico.\"",
+        "fonte": "Nick Bernard",
+        "data": "30/08/2025",
+        "url": "https://maps.app.goo.gl/FgUpaBn5Q9d8K9C57"
+      },
+      {
+        "imgSrc": "./img/testemunho10.png",
+        "citacao": "\"Excelente profissional, acompanha minha filha, meu milagre, desde que tinha 7 dias de vida. Profissional atenciosa, dedicada e comprometida. Atendimento humanizado. Super recomendo.\"",
+        "fonte": "Jessika Souza",
+        "data": "28/06/2025",
+        "url": "https://maps.app.goo.gl/Zz7udS5haHsCHrtC7"
+      }
+    ]
+  },
+  "svgEmbarcado": [
+    {
+      "id": "icone-link-externo",
+      "viewBox": "0 0 512 512",
+      "dados": "M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0-201.4 201.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3 448 192c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 96C35.8 96 0 131.8 0 176L0 432c0 44.2 35.8 80 80 80l256 0c44.2 0 80-35.8 80-80l0-80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 80c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l80 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 96z"
+    }
+  ]
 }

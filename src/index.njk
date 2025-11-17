@@ -50,3 +50,32 @@ transicaoBanner: true
 		{% include "partials/artigo-lado-a-lado.njk" %}
 	{% endfor %}
 </section>
+
+<section class="secao" id="testemunhos">
+	<h2 class="secao-titulo">Testemunhos</h2>
+	<div class="swiper testemunhos-swiper">
+		<div class="swiper-wrapper testemunhos-wrapper">
+			{% for slide in home.testemunhos.slides %}
+			<div class="swiper-slide testemunhos-slide">
+				<div>
+					<div class="testemunhos-img" style="background-image: url({{slide.imgSrc}});"></div>
+					<div class="testemunhos-estrelas" style="background-image: url(./img/5-estrelas.png);"></div>
+				</div>
+				<p class="testemunhos-citacao">{{ slide.citacao }}</p>
+				<p class="testemunhos-fonte">{{ slide.fonte }}<br />{{ slide.data }}</p>
+				<p><a href="{{ slide.url }}" target="_blank">
+					<svg><use xlink:href="#icone-link-externo"></use></svg>
+				</a></p>
+			</div>
+			{% endfor %}
+		</div>
+		<div class="testemunhos-nav">
+			<button type="button" class="swiper-anterior testemunhos-botao">
+				<svg><use xlink:href="#icone-swiper-anterior"></use></svg>
+			</button>
+			<button type="button" class="swiper-proximo testemunhos-botao">
+				<svg><use xlink:href="#icone-swiper-proximo"></use></svg>
+			</button>
+		</div>
+	</div>
+</section>
