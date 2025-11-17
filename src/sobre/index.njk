@@ -1,0 +1,37 @@
+---
+title: VitaCordis | Sobre
+layout: "./layouts/base.njk"
+estilosCss: ["sobre", ]
+swiper: sobre
+transicaoBanner: true
+---
+<section id="capa">
+  <div class="capa">
+    <div class="capa-wrapper">
+      <div class="capa-conteudo">
+        <div class="capa-titulo">
+          <h1>Um novo espaço para cuidar de pequenos corações com grandes propósitos.</h1>
+        </div>
+        <div class="capa-texto">
+          <p>
+            Somos um centro especializado em cardiologia pediátrica, criado para oferecer cuidado humanizado, tecnologia atual e apoio integral às famílias.
+          </p>
+          <p>
+            Nossa proposta tem por objetivo oferecer uma experiência atualizada, acolhedora e centrada nas necessidades das famílias modernas.
+          </p>
+          <p>
+            E nossa história começa muito antes da inauguração — nos caminhos e experiências dos profissionais que decidiram transformar esse sonho em realidade.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="secao" id="sobre">
+  <div class="sobre">
+    {% for artigo in artigos %}
+      {% include "partials/artigo-lado-a-lado-conteudo.njk" %}
+    {% endfor %}
+  </div>
+</section>

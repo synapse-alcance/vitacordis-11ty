@@ -1,0 +1,79 @@
+.capa {
+  background-image: var(--gradient-31), url("/img/sobre-bg.webp");
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 70%;
+}
+
+.capa-wrapper {
+  max-width: var(--size-lg, 1024px);
+  padding: var(--size-fluid-6) 0;
+  padding-top: var(--size-fluid-7);
+  margin: 0 auto;
+}
+.capa-conteudo {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  gap: var(--gap-m);
+  margin: 0 auto;
+  padding: var(--size-fluid-3) var(--size-fluid-6);
+}
+
+.capa-titulo {
+  max-width: 75%;
+}
+
+.capa-titulo h1 {
+  font-size: var(--font-size-fluid-3);
+  font-weight: 700;
+  color: var(--rose-2);
+  line-height: var(--font-lineheight-2);
+}
+
+.capa-texto {
+  max-width: 65%;
+  align-self: flex-end;
+}
+
+.capa-texto p {
+  font-weight: 100;
+  color: var(--off-white-0);
+  line-height: var(--font-lineheight-2);
+}
+
+.sobre {
+  max-width: var(--size-lg, 1024px);
+  margin: auto;
+}
+
+.sobre-artigo {
+  display: flex;
+  gap: var(--gap-s);
+  margin: var(--size-fluid-4) auto;
+  width: 90%;
+}
+
+.sobre-artigo-img {
+  min-width: 35%;
+  background-size: cover;
+  box-shadow: 5px 5px 10px 5px #80757c99;
+  border-radius: var(--radius-3);
+}
+
+.sobre-artigo-separador {
+  width: 1px;
+  background-color: var(--marsala-2);
+}
+
+.sobre-artigo-conteudo ul {
+  margin-left: 40px;
+}
+
+.sobre-artigo-conteudo ul strong {
+  font-weight: 600;
+}
+
+.linha-inversa {
+    flex-direction: row-reverse;
+}

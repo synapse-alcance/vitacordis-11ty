@@ -1,0 +1,84 @@
+{
+  "artigos": [
+    {
+      "inverter": true,
+      "imgSrc": "/img/socias_origem.webp",
+      "imgPosX": "50%",
+      "imgPosY": "0%",
+      "titulo": "Nossa origem",
+      "textos": [
+        {
+          "lista": false,
+          "conteudo": "A Vitacordis nasceu do desejo de criar um espaço moderno, sensível e resolutivo para o cuidado cardiológico de crianças e gestantes."
+        },
+        {
+          "lista": false,
+          "conteudo": "As fundadoras, médicas com sólida formação em cardiologia pediátrica e fetal, atuaram em instituições de referência e acumularam anos de experiência no diagnóstico e acompanhamento de cardiopatias congênitas."
+        },
+        {
+          "lista": false,
+          "conteudo": "Percebendo a dificuldade das famílias em encontrar atendimento completo e confiável, decidiram unir conhecimento técnico com acolhimento humano."
+        },
+        {
+          "lista": false,
+          "conteudo": "A clínica oferece desde o rastreio fetal até o acompanhamento clínico e cirúrgico, com condutas baseadas em evidências."
+        }
+      ]
+    },
+    {
+      "inverter": false,
+      "imgSrc": "/img/abordagem.webp",
+      "imgPosX": "50%",
+      "imgPosY": "50%",
+      "titulo": "Nossa abordagem do cuidado",
+      "textos": [
+        {
+          "lista": false,
+          "conteudo": "Nossa forma de cuidar é guiada pela escuta ativa, pela empatia e pela excelência técnica."
+        },
+        {
+          "lista": false,
+          "conteudo": "Cada atendimento é pensado para oferecer segurança, conforto e clareza às famílias que enfrentam o desafio das cardiopatias congênitas."
+        },
+        {
+          "lista": true,
+          "conteudo": [
+            "Atendimento centrado na criança e na família.",
+            "Comunicação acessível e transparente.",
+            "Ambiente acolhedor e pensado para o bem-estar infantil.",
+            "Integração entre especialistas e suporte emocional.",
+            "Agilidade e praticidade no agendamento e acompanhamento."
+          ]
+        }
+      ]
+    },
+    {
+      "inverter": true,
+      "imgSrc": "/img/valores.webp",
+      "imgPosX": "50%",
+      "imgPosY": "50%",
+      "titulo": "Nossos valores",
+      "textos": [
+        {
+          "lista": false,
+          "conteudo": "Na Vitacordis, cada decisão é guiada por valores que refletem nosso compromisso com o cuidado integral e humano."
+        },
+        {
+          "lista": true,
+          "conteudo": [
+            "<strong>Empatia</strong>: escutamos com atenção e acolhemos cada história com sensibilidade.",
+            "<strong>Transparência</strong>: explicamos cada passo com clareza, respeitando o tempo e as dúvidas das famílias.",
+            "<strong>Excelência</strong>: Atuamos com base em evidências e experiência, buscando sempre o melhor resultado.",
+            "<strong>Acolhimento</strong>: criamos um ambiente seguro, gentil e pensado para o bem-estar infantil.",
+            "<strong>Inovação</strong>: utilizamos tecnologia atual para facilitar diagnósticos e decisões clínicas.",
+            "<strong>Confiança</strong>: construímos relações sólidas com pais, gestantes e profissionais da saúde."
+          ]
+        },
+        {
+          "lista": false,
+          "conteudo": "Esses valores estão presentes em cada consulta, exame e conversa que temos com quem nos procura."
+        }
+      ]
+    }
+  ]
+}
