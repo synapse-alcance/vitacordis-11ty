@@ -305,8 +305,8 @@
     margin-top: var(--size-fluid-3);
 }
 
-.swiper-anterior.testemunhos-botao,
-.swiper-proximo.testemunhos-botao {
+.swiper-button-prev.testemunhos-botao,
+.swiper-button-next.testemunhos-botao {
     position: static;
     margin: 0;
     top: auto;
