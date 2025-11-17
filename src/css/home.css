@@ -269,13 +269,13 @@
     font-weight: 500;
 }
 
-.testemunhos-fonte {
+.testemunhos-autor {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.testemunhos-fonte a {
+.testemunhos-autor a {
     display: flex;
     align-items: center;
     justify-items: center;
@@ -285,7 +285,7 @@
     font-size: 0.9em;
 }
 
-.testemunhos-fonte svg {
+.testemunhos-autor svg {
     fill: var(--pistachio-2);
     height: 1.25em;
     width: 1.25em;
@@ -293,7 +293,7 @@
     margin-right: var(--size-1);
 }
 
-.testemunhos-fonte p {
+.testemunhos-autor p {
     font-size: 0.85em;
     font-weight: 400;
 }

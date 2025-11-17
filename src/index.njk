@@ -62,10 +62,14 @@ transicaoBanner: true
 					<div class="testemunhos-estrelas" style="background-image: url(./img/5-estrelas.png);"></div>
 				</div>
 				<p class="testemunhos-citacao">{{ slide.citacao }}</p>
-				<p class="testemunhos-fonte">{{ slide.fonte }}<br />{{ slide.data }}</p>
-				<p><a href="{{ slide.url }}" target="_blank">
-					<svg><use xlink:href="#icone-link-externo"></use></svg>
-				</a></p>
+				<div class="testemunhos-autor">
+					<p>{{ slide.fonte }}<br />{{ slide.data }}</p>
+					<p><a href="{{ slide.url }}" target="_blank">
+						<svg>
+							<use xlink:href="#icone-link-externo"></use>
+						</svg>
+					</a></p>
+				</div>
 			</div>
 			{% endfor %}
 		</div>
