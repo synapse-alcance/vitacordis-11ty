@@ -1,0 +1,28 @@
+{
+  "links": [
+    {
+      "icone": "icone-pino-mapa",
+      "texto": "R. Pernambuco, 353, Sala 809 <br /> Belo Horizonte, MG, CEP 30130-150"
+    },
+    {
+      "url": "tel:+55-31-99764-7896",
+      "icone": "icone-telefone",
+      "texto": "(31) 99764-7896"
+    },
+    {
+      "url": "https://www.instagram.com/vitacordis.cardioped/",
+      "icone": "icone-instagram",
+      "texto": "@vitacordis.cardioped"
+    },
+    {
+      "url": "https://www.facebook.com/profile.php?id=61580090572505",
+      "icone": "icone-facebook",
+      "texto": "Instituto Vitacordis"
+    },
+    {
+      "url": "",
+      "icone": "icone-email",
+      "texto": "pessoa@dominio.com.br"
+    }
+  ]
+}
