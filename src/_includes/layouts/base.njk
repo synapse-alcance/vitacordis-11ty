@@ -8,21 +8,21 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./css/base.css">
-	<link rel="stylesheet" href="./css/cabecalho.css">
-	<link rel="stylesheet" href="./css/rodape.css">
+	<link rel="stylesheet" href="/css/base.css">
+	<link rel="stylesheet" href="/css/cabecalho.css">
+	<link rel="stylesheet" href="/css/rodape.css">
 	{% for estilo in estilosCss %}
-	<link rel="stylesheet" href="./css/{{ estilo }}.css">
+	<link rel="stylesheet" href="/css/{{ estilo }}.css">
 	{% endfor %}
 	{% if swiper %}
 	<!-- Carrrossel de slides --------------------------------------------------->
 	<link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
-	<script src="./swiper/swiper-bundle.min.js" defer></script>
-	<script src="./js/swiper-{{ swiper }}.js" defer></script>
+	<script src="/swiper/swiper-bundle.min.js" defer></script>
+	<script src="/js/swiper-{{ swiper }}.js" defer></script>
 	{% endif %}
 	{% if transicaoBanner %}
 		<!-- Efeito de transição da cor do fundo do cabeçalho  -------------------->
-		<script src="./js/transicao-cabecalho.js"></script>
+		<script src="/js/transicao-cabecalho.js"></script>
 	{% endif %}
 	<link rel="canonical" href="https://www.vitacordis.com.br/">
 </head>

@@ -31,7 +31,7 @@
       "separador": false
     }
   ],
-  "logoArquivo": "./img/marca_horizontal_transparente.webp",
+  "logoArquivo": "/img/marca_horizontal_transparente.webp",
   "logoAlt": "Logo do Instituto VitaCordis",
   "whatsapp": "5531997647896"
 }
