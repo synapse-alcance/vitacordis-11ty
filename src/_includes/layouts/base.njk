@@ -58,9 +58,10 @@
 			</symbol>
 			{% endif %}
 			{% for svg in svgEmbarcado %}
-			<!------------------------------------------------------------------------ TODO
-				Inserir código para incluir o SVG embarcado de páginas específicas
-			------------------------------------------------------------------------->
+			<symbol id="{{ svg.id }}" viewBox="{{ svg.viewBox }}">
+				<path
+					d="{{ svg.dados }}" />
+			</symbol>
 			{% endfor %}
 		</defs>
 	</svg>
