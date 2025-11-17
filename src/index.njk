@@ -19,7 +19,7 @@ transicaoBanner: true
 			</div>
 			<div class="swiper hero-swiper">
 				<div class="swiper-wrapper">
-					{% for slide in home.hero.slides %}
+					{% for slide in hero.slides %}
 					<div class="swiper-slide hero-slide">
 						<img src="{{ slide.imgSrc }}" alt="{{ slide.imgAlt }}">
 					</div>
@@ -30,7 +30,7 @@ transicaoBanner: true
 </section>
 
 <section class="secao" id="sobre">
-	{% for artigo in home.sobre.artigos %}
+	{% for artigo in sobre.artigos %}
 		{% include "partials/artigo-lado-a-lado.njk" %}
 	{% endfor %}
 </section>
@@ -38,7 +38,7 @@ transicaoBanner: true
 <section class="secao" id="servicos">
 	<div class="servicos">
 		<h2>Nossos Serviços</h2>
-		{% for artigo in home.servicos.artigos %}
+		{% for artigo in servicos.artigos %}
 			{% include "partials/cartao-horizontal-largo.njk" %}
 		{% endfor %}
 	</div>
@@ -46,7 +46,7 @@ transicaoBanner: true
 
 <section class="secao" id="porque">
 	<h2 class="secao-titulo">Porque nos escolher?</h2>
-	{% for artigo in home.porque.artigos %}
+	{% for artigo in porque.artigos %}
 		{% include "partials/artigo-lado-a-lado.njk" %}
 	{% endfor %}
 </section>
@@ -55,7 +55,7 @@ transicaoBanner: true
 	<h2 class="secao-titulo">Testemunhos</h2>
 	<div class="swiper testemunhos-swiper">
 		<div class="swiper-wrapper testemunhos-wrapper">
-			{% for slide in home.testemunhos.slides %}
+			{% for slide in testemunhos.slides %}
 			<div class="swiper-slide testemunhos-slide">
 				<div>
 					<div class="testemunhos-img" style="background-image: url({{slide.imgSrc}});"></div>
