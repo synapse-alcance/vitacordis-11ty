@@ -50,7 +50,7 @@
 .sobre-artigo {
   display: flex;
   gap: var(--gap-s);
-  margin: var(--size-fluid-4) auto;
+  margin: var(--size-fluid-6) auto;
   width: 90%;
 }
 
@@ -64,6 +64,10 @@
 .sobre-artigo-separador {
   width: 1px;
   background-color: var(--marsala-2);
+}
+
+.sobre-artigo-conteudo p:first-of-type {
+  margin-top: 0;
 }
 
 .sobre-artigo-conteudo ul {
