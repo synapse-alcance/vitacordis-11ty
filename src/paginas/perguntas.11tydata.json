@@ -1,0 +1,36 @@
+{
+  "acordeaoDados": [
+    {
+      "pergunta": "O ecocardiograma fetal é indicado para todas as gestantes?",
+      "resposta": "Embora não seja obrigatório, o exame é altamente recomendado para todas as gestantes, especialmente em casos de gestação de alto risco, histórico familiar de cardiopatias ou alterações em exames anteriores. Ele permite identificar precocemente possíveis alterações cardíacas no bebê."
+    },
+    {
+      "pergunta": "Descobri uma cardiopatia na gestação. E agora?",
+      "resposta": "A Vitacordis oferece aconselhamento especializado para orientar a gestante sobre os próximos passos, em parceria com o obstetra. Avaliamos o tipo de cardiopatia, indicamos condutas seguras e ajudamos a planejar o parto e os cuidados após o nascimento."
+    },
+    {
+      "pergunta": "Criança cardiopata pode ter uma vida normal?",
+      "resposta": "Sim, muitas crianças com cardiopatias congênitas vivem com qualidade e autonomia. O acompanhamento adequado é essencial para garantir o desenvolvimento saudável e adaptar os cuidados conforme cada caso."
+    },
+    {
+      "pergunta": "Criança cardiopata pode praticar esportes?",
+      "resposta": "Depende do tipo e da gravidade da cardiopatia. A Vitacordis realiza avaliação específica para prática esportiva, garantindo que a atividade física seja segura e benéfica para cada criança."
+    },
+    {
+      "pergunta": "O que é “sopro” no coração? É sempre grave?",
+      "resposta": "O sopro é um som cardíaco que pode ter diversas causas. Nem todo sopro é sinal de cardiopatia. A avaliação médica é fundamental para identificar se há necessidade de acompanhamento ou tratamento."
+    },
+    {
+      "pergunta": "Vocês oferecem atendimento à distância?",
+      "resposta": "Sim. Oferecemos consultas de aconselhamento remoto para gestantes e famílias que precisam de orientação especializada, mesmo fora da região de atendimento presencial."
+    },
+    {
+      "pergunta": "Quais exames são realizados na clínica?",
+      "resposta": "Realizamos ecocardiograma fetal e pediátrico, eletrocardiograma infantil, avaliação para risco cirúrgico e exames complementares conforme necessidade clínica."
+    },
+    {
+      "pergunta": "Como agendar uma consulta?",
+      "resposta": "Você pode agendar diretamente pelo nosso site, WhatsApp ou telefone. Também atendemos por convênios e particular. Nossa equipe está pronta para orientar você no melhor formato de atendimento."
+    }
+  ]
+}

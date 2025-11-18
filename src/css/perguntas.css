@@ -1,0 +1,57 @@
+.intro-wrapper {
+  max-width: var(--size-lg, 1024px);
+  padding: var(--size-fluid-4) 0;
+  padding-top: var(--size-fluid-7);
+  margin: 0 auto;
+}
+
+.intro-conteudo {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.intro-conteudo p {
+  font-weight: 400;
+}
+
+.acordeao-wrapper {
+  max-width: var(--size-lg, 1024px);
+  padding: var(--size-fluid-2) 0;
+  margin: 0 auto;
+  margin-bottom: var(--size-fluid-4);
+}
+
+.acordeao-conteudo {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.acordeao-conteudo details {
+  margin-bottom: var(--size-fluid-2);
+  border: 1px solid var(--marsala-2);
+  border-radius: var(--radius-2);
+  background-color: var(--background-card);
+  box-shadow: 0 5px 15px 5px #80757c66;
+}
+
+.acordeao-conteudo summary {
+  padding: var(--size-fluid-2);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.acordeao-conteudo p {
+  padding: 0 var(--size-fluid-2);
+}
+
+.acordeao-conteudo details[open] summary {
+  padding-bottom: 0;
+}
+
+.acordeao-conteudo summary::marker {
+  content: "↪ ";
+}
+
+.acordeao-conteudo details[open] summary::marker {
+  content: "⤤  ";
+}
