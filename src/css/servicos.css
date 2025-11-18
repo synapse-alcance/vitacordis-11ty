@@ -14,10 +14,15 @@
   margin: 0 auto;
 }
 
+.servicos-conteudo p {
+  font-weight: 400;
+}
+
 .servicos-conteudo p strong {
   font-weight: 700;
 }
 
+.diferenciais-wrapper,
 .consultas-wrapper,
 .exames-wrapper {
   max-width: var(--size-lg, 1024px);
@@ -67,4 +72,13 @@
 .cartao-conteudo {
   flex: 1;
   padding: var(--size-fluid-2) var(--size-fluid-1);
+}
+
+.diferenciais-conteudo {
+  width: 70%;
+  margin: auto;
+}
+
+.diferenciais-conteudo p {
+  font-weight: 400;
 }
