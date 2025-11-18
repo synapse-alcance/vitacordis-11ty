@@ -1,0 +1,74 @@
+---
+title: VitaCordis | Contato
+layout: "./layouts/base.njk"
+permalink: "/contato/"
+estilosCss: ["contato", ]
+---
+<section id="intro">
+  <div class="intro-wrapper">
+    <h1 class="secao-titulo">Contato</h1>
+    <div class="intro-conteudo">
+      <p>Na VitaCordis, cada contato é uma oportunidade de acolher, orientar e cuidar. Se você tem dúvidas sobre nossos serviços, precisa de ajuda para escolher o tipo de atendimento ideal ou quer conversar com nossa equipe, este espaço é para você. Estamos prontos para escutar e responder com atenção.</p>
+    </div>
+  </div>
+</section>
+
+<section id="ajudar">
+  <div class="ajudar-wrapper">
+    <h2 class="secao-titulo">Como podemos ajudar?</h2>
+    <div class="ajudar-conteudo">
+      <p>Oferecemos diferentes formas de contato para atender você com agilidade e conforto. Escolha a opção que melhor se encaixa na sua necessidade:</p>
+      <div class="ajudar-cartoes">
+      {% for cartao in ajudar.cartoes %}
+        {% include "partials/cartao-contato.njk" %}
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="demais">
+  <div class="demais-wrapper">
+    <h2 class="secao-titulo">Demais solicitações</h2>
+    <div  class="demais-conteudo">
+      <p>Se você deseja entrar em contato para enviar uma dúvida, sugestão, crítica ou qualquer outra solicitação que não envolva agendamento, este espaço é para você.</p>
+      <p>
+        Nossa equipe está disponível para escutar, orientar e responder com atenção. Preencha o formulário abaixo e retornaremos o mais breve possível.
+      </p>
+    </div>
+    <form
+      class="demais-formulario"
+      action="https://formspree.io/f/movrjeng"
+      method="POST"
+    >
+      <div class="formulario-campo">
+        <label for="nome">Nome:</label>
+        <input id="nome" type="text" name="name">
+      </div>
+      <div class="formulario-campo">
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email">
+      </div>
+      <div class="formulario-campo">
+        <label for="telefone">Telefone:</label>
+        <input id="telefone" type="tel" name="phone">
+      </div>
+      <div class="formulario-campo">
+        <label for="motivo">Motivo:</label>
+        <select id="motivo" name="subject">
+          <option value="duvida">Dúvidas gerais</option>
+          <option value="sugestao">Sugestão de melhoria</option>
+          <option value="critica">Crítica ou reclamação</option>
+          <option value="mensagem">Mensagem para a equipe</option>
+          <option value="outro">Outros motivos</option>
+        </select>
+      </div>
+      <div class="formulario-campo">
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="message"></textarea>
+      </div>
+      <!-- your other form fields go here -->
+      <button class="formulario-botao" type="submit">Enviar</button>
+    </form>
+  </div>
+</section>

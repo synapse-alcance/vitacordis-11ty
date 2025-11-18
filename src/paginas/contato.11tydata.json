@@ -1,0 +1,19 @@
+{
+  "ajudar": {
+    "cartoes": [
+      {
+        "titulo": "Agendamento Online",
+        "texto": "Disponível 24h por dia, rápido e prático.",
+        "ctaTexto": "Em breve",
+        "ctaUrl": "javascript:void(0)"
+      },
+      {
+        "titulo": "WhatsApp",
+        "texto": "Atendimento personalizado em horário comercial.",
+        "ctaIcone": "",
+        "ctaTexto": "Falar pelo WhatsApp",
+        "ctaUrl": "https://wa.me/5531997647896/"
+      }
+    ]
+  }
+}

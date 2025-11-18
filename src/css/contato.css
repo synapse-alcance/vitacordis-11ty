@@ -1,0 +1,120 @@
+.intro-wrapper {
+  max-width: var(--size-lg, 1024px);
+  padding: var(--size-fluid-4) 0;
+  padding-top: var(--size-fluid-7);
+  margin: 0 auto;
+}
+
+.intro-conteudo {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.intro-conteudo p {
+  font-weight: 400;
+}
+
+.demais-wrapper,
+.ajudar-wrapper {
+  max-width: var(--size-lg, 1024px);
+  padding: var(--size-fluid-4) 0;
+  margin: 0 auto;
+}
+
+.demais-conteudo,
+.ajudar-conteudo {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.demais-conteudo p,
+.ajudar-conteudo p {
+  font-weight: 400;
+}
+
+.ajudar-cartoes {
+  display: flex;
+  gap: var(--gap-m);
+  justify-content: center;
+}
+
+.cartao-wrapper {
+  padding: var(--size-fluid-2) var(--size-fluid-1);
+  width: 28ch;
+  background-color: var(--background-card);
+  border: 1px solid var(--marsala-2);
+  border-radius: var(--radius-3);
+  box-shadow: 0 5px 15px 5px #80757c66;
+  overflow: hidden;
+}
+
+.cartao-wrapper h3 {
+  text-align: center;
+}
+
+.cartao-wrapper p {
+  font-weight: 200
+}
+
+.cartao-botao-cta {
+  display: block;
+  margin: auto;
+  padding: var(--size-2);
+  width: 30ch;
+  color: var(--rose-2);
+  background-color: var(--rosemary-2);
+  border: none;
+  border-radius: var(--radius-3);
+  font-size: 0.75em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.demais-formulario {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.formulario-campo {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--gap-s);
+}
+
+.formulario-campo label {
+  font-weight: 600;
+}
+
+.formulario-campo input,
+.formulario-campo select,
+.formulario-campo textarea {
+  width: 80%;
+}
+
+.formulario-campo textarea {
+  height: 16rem;
+  resize: vertical;
+}
+
+.formulario-botao {
+  align-self: end;
+  display: block;
+  margin-right: 0;
+  padding: var(--size-2);
+  width: 15ch;
+  color: var(--rose-2);
+  background-color: var(--rosemary-2);
+  border: none;
+  border-radius: var(--radius-3);
+  font-size: 0.75em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#demais {
+  margin-bottom: var(--size-fluid-7);
+}
