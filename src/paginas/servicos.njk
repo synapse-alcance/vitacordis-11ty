@@ -13,3 +13,14 @@ estilosCss: ["servicos", ]
     </div>
   </div>
 </section>
+
+<section id="exames">
+  <div class="exames-wrapper">
+    <h2 class="secao-titulo">Exames</h2>
+    <div class="exames-grupo">
+      {% for cartao in exames.grupos[0].cartoes %}
+        {% include "partials/cartao-vertical-estreito.njk" %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

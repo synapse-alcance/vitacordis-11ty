@@ -1,0 +1,76 @@
+{
+  "exames": {
+    "grupos": [
+      {
+        "cartoes": [
+          {
+            "imgSrc": "/img/img-placeholder.svg",
+            "imgAlt": "",
+            "titulo": "Ecocardiograma fetal",
+            "texto": "Avaliação detalhada do coração do bebê ainda na gestação, ideal para rastreio e diagnóstico precoce de cardiopatias."
+          },
+          {
+            "imgSrc": "/img/img-placeholder.svg",
+            "imgAlt": "",
+            "titulo": "Ecocardiograma pediátrico",
+            "texto": "Exame não invasivo para investigar a saúde cardiovascular de crianças e adolescentes."
+          },
+          {
+            "imgSrc": "/img/img-placeholder.svg",
+            "imgAlt": "",
+            "titulo": "Eletrocardiograma pediátrico",
+            "texto": "Exame rápido e seguro para investigar ritmo e função cardíaca em crianças."
+          }
+        ]
+      }
+    ]
+  },
+  "consultas": {
+    "grupos": [
+      {
+        "cartoes": [
+          {
+            "imgSrc": "",
+            "imgAlt": "",
+            "titulo": "",
+            "texto": ""
+          },
+          {
+            "imgSrc": "",
+            "imgAlt": "",
+            "titulo": "",
+            "texto": ""
+          },
+          {
+            "imgSrc": "",
+            "imgAlt": "",
+            "titulo": "",
+            "texto": ""
+          }
+        ]
+      },
+      {
+        "cartoes": [
+          {
+            "imgSrc": "",
+            "imgAlt": "",
+            "titulo": "",
+            "texto": ""
+          },
+          {
+            "imgSrc": "",
+            "imgAlt": "",
+            "titulo": "",
+            "texto": ""
+          },
+          {
+            "imgSrc": "",
+            "imgAlt": "",
+            "titulo": "",
+            "texto": ""
+          }
+        ]
+      }
+    ]
+  }
+}
