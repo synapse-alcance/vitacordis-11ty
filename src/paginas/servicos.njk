@@ -24,3 +24,21 @@ estilosCss: ["servicos", ]
     </div>
   </div>
 </section>
+
+<section id="consultas">
+  <div class="consultas-wrapper">
+    <h2 class="secao-titulo">Consultas</h2>
+    <div class="consultas-grupos-wrapper">
+      <div class="consultas-grupo">
+        {% for cartao in consultas.grupos[0].cartoes %}
+          {% include "partials/cartao-vertical-estreito.njk" %}
+        {% endfor %}
+      </div>
+      <div class="consultas-grupo">
+        {% for cartao in consultas.grupos[1].cartoes %}
+          {% include "partials/cartao-vertical-estreito.njk" %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

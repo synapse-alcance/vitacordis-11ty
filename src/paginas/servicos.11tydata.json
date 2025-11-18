@@ -30,44 +30,44 @@
       {
         "cartoes": [
           {
-            "imgSrc": "",
+            "imgSrc": "/img/img-placeholder.svg",
             "imgAlt": "",
-            "titulo": "",
-            "texto": ""
+            "titulo": "Consulta de telemedicina",
+            "texto": "Consultas online para gestantes e mães que buscam segunda opinião ou acompanhamento remoto."
           },
           {
-            "imgSrc": "",
+            "imgSrc": "/img/img-placeholder.svg",
             "imgAlt": "",
-            "titulo": "",
-            "texto": ""
+            "titulo": "Consulta cardiológica fetal",
+            "texto": "Orientação especializada para gestantes com diagnóstico de cardiopatia fetal, em parceria com o obstetra."
           },
           {
-            "imgSrc": "",
+            "imgSrc": "/img/img-placeholder.svg",
             "imgAlt": "",
-            "titulo": "",
-            "texto": ""
+            "titulo": "Avaliação de risco cirúrgico",
+            "texto": "Análise cardiológica pré-operatória para procedimentos em crianças."
           }
         ]
       },
       {
         "cartoes": [
           {
-            "imgSrc": "",
+            "imgSrc": "/img/img-placeholder.svg",
             "imgAlt": "",
-            "titulo": "",
-            "texto": ""
+            "titulo": "Cardiologia pediátrica",
+            "texto": "Avaliação clínica completa para crianças com suspeita ou diagnóstico de cardiopatia."
           },
           {
-            "imgSrc": "",
+            "imgSrc": "/img/img-placeholder.svg",
             "imgAlt": "",
-            "titulo": "",
-            "texto": ""
+            "titulo": "Avaliação para prática esportiva",
+            "texto": "Consulta cardiológica para crianças e adolescentes que praticam esportes. Identifica riscos e garante segurança para atividades físicas."
           },
           {
-            "imgSrc": "",
+            "imgSrc": "/img/img-placeholder.svg",
             "imgAlt": "",
-            "titulo": "",
-            "texto": ""
+            "titulo": "Acompanhamento domiciliar e hospitalar",
+            "texto": "Atendimento personalizado em casa ou no hospital, conforme necessidade do paciente."
           }
         ]
       }
