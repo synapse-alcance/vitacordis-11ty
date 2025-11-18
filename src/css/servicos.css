@@ -1,6 +1,6 @@
 .servicos-wrapper {
   max-width: var(--size-lg, 1024px);
-  padding: var(--size-fluid-6) 0;
+  padding: var(--size-fluid-4) 0;
   padding-top: var(--size-fluid-7);
   margin: 0 auto;
 }
@@ -20,7 +20,7 @@
 
 .exames-wrapper {
   max-width: var(--size-lg, 1024px);
-  padding: var(--size-fluid-3) 0;
+  padding: var(--size-fluid-2) 0;
   margin: 0 auto;
 }
 
