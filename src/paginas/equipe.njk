@@ -16,3 +16,14 @@ estilosCss: ["equipe", ]
     </div>
   </div>
 </section>
+
+<section id="equipe">
+  <div class="equipe-wrapper">
+    <h2 class="secao-titulo">Equipe médica</h2>
+    <div class="equipe-conteudo">
+    {% for artigo in equipeMedica.artigos %}
+      {% include "partials/artigo-equipe.njk" %}
+    {% endfor %}
+    </div>
+  </div>
+</section>

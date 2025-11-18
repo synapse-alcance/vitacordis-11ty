@@ -1,0 +1,14 @@
+  <article class="equipe-artigo">
+    <h3 class="equipe-artigo-titulo">{{ artigo.titulo }}</h3>
+    <div class="equipe-artigo-conteudo">
+      <div class="equipe-artigo-img">
+        <img src="{{artigo.imgSrc}}" alt="{{artigo.imgAlt}}">
+      </div>
+      <div class="equipe-artigo-separador"></div>
+      <div class="equipe-artigo-texto">
+        {% for paragrafo in artigo.conteudos %}
+          <p>{{ paragrafo }}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </article>
