@@ -2,7 +2,7 @@
   "acordeaoDados": [
     {
       "pergunta": "O ecocardiograma fetal é indicado para todas as gestantes?",
-      "resposta": "Embora não seja obrigatório, o exame é altamente recomendado para todas as gestantes, especialmente em casos de gestação de alto risco, histórico familiar de cardiopatias ou alterações em exames anteriores. Ele permite identificar precocemente possíveis alterações cardíacas no bebê."
+      "resposta": "Sim, é um exame é altamente recomendado para todas as gestantes, especialmente em casos de gestação de alto risco, histórico familiar de cardiopatias ou alterações em exames anteriores. Ele permite identificar precocemente possíveis alterações cardíacas no bebê."
     },
     {
       "pergunta": "Descobri uma cardiopatia na gestação. E agora?",
@@ -26,7 +26,7 @@
     },
     {
       "pergunta": "Quais exames são realizados na clínica?",
-      "resposta": "Realizamos ecocardiograma fetal e pediátrico, eletrocardiograma infantil, avaliação para risco cirúrgico e exames complementares conforme necessidade clínica."
+      "resposta": "Realizamos ecocardiograma fetal, ecocardiograma pediátrico  e eletrocardiograma infantil."
     },
     {
       "pergunta": "Como agendar uma consulta?",
