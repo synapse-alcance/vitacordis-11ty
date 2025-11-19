@@ -177,6 +177,10 @@
     text-align: center;
 }
 
+.servicos strong {
+    font-weight: 700;
+}
+
 .servicos-cartao {
     display: flex;
     align-items: stretch;
