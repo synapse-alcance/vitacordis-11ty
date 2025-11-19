@@ -50,6 +50,13 @@
   margin: var(--size-fluid-1) auto;
 }
 
+.equipe-artigo-crm {
+  margin-top: 0;
+  color: var(--rosemary-2);
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
 .equipe-artigo-conteudo {
   display: flex;
   align-items: stretch;
@@ -57,8 +64,7 @@
 }
 
 .equipe-artigo-img {
-  aspect-ratio: 1;
-  margin: auto;
+  aspect-ratio: 0.75;
   border-radius: var(--radius-3);
   box-shadow: 5px 5px 10px 5px #80757c99;
   overflow: hidden;
@@ -74,7 +80,7 @@
 }
 
 .equipe-artigo-texto {
-  margin: auto;
+  align-self: flex-start;
   flex: 5;
 }
 
