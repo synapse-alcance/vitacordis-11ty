@@ -4,20 +4,20 @@
       {
         "cartoes": [
           {
-            "imgSrc": "/img/img-placeholder.svg",
-            "imgAlt": "",
+            "imgSrc": "/img/ecocardiograma-fetal.webp",
+            "imgAlt": "Aproximação no rosto visível de um feto durante um exame de imagem.",
             "titulo": "Ecocardiograma fetal",
             "texto": "Avaliação detalhada do coração do bebê ainda na gestação, ideal para rastreio e diagnóstico precoce de cardiopatias."
           },
           {
-            "imgSrc": "/img/img-placeholder.svg",
-            "imgAlt": "",
+            "imgSrc": "/img/ecocardiograma-pediatrico.webp",
+            "imgAlt": "Mãos da médica operando a sonda do equipamento de imagem em destaque com parte do rosto de uma criança visível ao fundo.",
             "titulo": "Ecocardiograma pediátrico",
             "texto": "Avaliação detalhada do coração da criança com análise da sua estrutura e função."
           },
           {
-            "imgSrc": "/img/img-placeholder.svg",
-            "imgAlt": "",
+            "imgSrc": "/img/eletrocardiograma-pediatrico.webp",
+            "imgAlt": "Detalhe da tela de equipamento médico em utilização revelando curvas correspondentes à batidas do coração.",
             "titulo": "Eletrocardiograma pediátrico",
             "texto": "Exame rápido para investigar o ritmo cardíaco em crianças."
           }
@@ -30,20 +30,20 @@
       {
         "cartoes": [
           {
-            "imgSrc": "/img/img-placeholder.svg",
-            "imgAlt": "",
+            "imgSrc": "/img/telemedicina.webp",
+            "imgAlt": "Detalhe de painel eletrônico de equipamento médico com mãos da médica operando os controles.",
             "titulo": "Consulta de telemedicina",
             "texto": "Consulta online para gestantes e famílias que buscam acompanhamento mesmo à distância."
           },
           {
-            "imgSrc": "/img/img-placeholder.svg",
-            "imgAlt": "",
+            "imgSrc": "/img/cardiologica-fetal.webp",
+            "imgAlt": "Profissional com sonda médica examinando mulher grávida deitada em uma maca para pacientes.",
             "titulo": "Consulta cardiológica fetal",
             "texto": "Atendimento voltado ao cuidado e acompanhamento do coração do bebê com diagnóstico de cardiopatia antes do nascimento, com orientações ao pais."
           },
           {
-            "imgSrc": "/img/img-placeholder.svg",
-            "imgAlt": "",
+            "imgSrc": "/img/avaliacao-risco.webp",
+            "imgAlt": "Foto de costas de médica observando tela do computador desfocada ao fundo, com prontuário de paciente aberto na tela.",
             "titulo": "Avaliação de risco cirúrgico",
             "texto": "Análise cardiológica pré-operatória para procedimentos em crianças."
           }
@@ -52,20 +52,20 @@
       {
         "cartoes": [
           {
-            "imgSrc": "/img/img-placeholder.svg",
-            "imgAlt": "",
+            "imgSrc": "/img/cardiologica-pediatrica.webp",
+            "imgAlt": "Foto de médica sorrindo durante o atendendimento de paciente criaça.",
             "titulo": "Cardiologia pediátrica",
             "texto": "Avaliação clínica completa para crianças com suspeita ou diagnóstico de cardiopatia."
           },
           {
-            "imgSrc": "/img/img-placeholder.svg",
-            "imgAlt": "",
+            "imgSrc": "/img/pratica-esportiva.webp",
+            "imgAlt": "Detalhe de criança brincando.",
             "titulo": "Avaliação para prática esportiva",
             "texto": "Consulta cardiológica para crianças e adolescentes que praticam esportes. Identifica riscos e garante segurança para atividades físicas."
           },
           {
-            "imgSrc": "/img/img-placeholder.svg",
-            "imgAlt": "",
+            "imgSrc": "/img/acompanhamento.webp",
+            "imgAlt": "Médica agachada na altura dos olhos tentando estabelecer confiança com uma criança com expressão de concentração.",
             "titulo": "Acompanhamento domiciliar e hospitalar",
             "texto": "Atendimento personalizado em casa ou no hospital, conforme necessidade do paciente."
           }
