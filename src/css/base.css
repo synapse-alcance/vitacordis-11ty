@@ -42,6 +42,28 @@ p {
     margin-bottom: var(--size-fluid-4);
 }
 
+.base-cta {
+    margin: var(--size-fluid-4);
+}
+
+.base-cta a {
+    display: block;
+    text-align: center;
+    margin: var(--size-fluid-4) auto;
+    margin-bottom: var(--size-fluid-7);
+    padding: var(--size-fluid-2);
+    width: 30ch;
+    box-shadow: 0 5px 15px 5px #80757c66;
+    border: 4px solid var(--rosemary-1);
+    border-radius: var(--radius-4);
+    background-color: var(--rosemary-2);
+    text-decoration: none;
+    color: var(--rose-2);
+    font-size: 1.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
 :root {
     font-family: 'Roboto Flex', Arial, sans-serif;
     background-color: var(--background-primary, rgba(13, 15, 18, 1));
