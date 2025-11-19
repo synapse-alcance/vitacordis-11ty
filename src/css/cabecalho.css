@@ -11,9 +11,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    column-gap: var(--gap-m);
     max-width: var(--size-lg, 1024px);
-    padding: 0 var(--size-fluid-3);
+    padding: 0 var(--size-fluid-2);
     margin: 0 auto;
 }
 
@@ -99,14 +98,31 @@ li.nav-link a:hover {
     transition: transform 0.3s ease;
 }
 
+.cabecalho-insta {
+    display: flex;
+    margin: auto 0;
+    padding: 0;
+    align-items: center;
+    justify-items: center;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.cabecalho-insta:hover,
 .cabecalho-botao:hover {
     transform: scale(0.8);
     transition: transform 0.2s ease;
 }
 
+
 a.cabecalho-botao svg {
     fill: var(--foreground-muted);
     height: 1.25em;
     width: 1.25em;
-    margin-right: var(--size-2);
+}
+
+a.cabecalho-insta svg {
+    fill: var(--background-primary);
+    height: 1.75em;
+    width: 1.75em;
 }
