@@ -59,7 +59,7 @@
 }
 
 .cartao-img {
-  flex: 1;
+  height: 40%;
 }
 
 .cartao-img img {
@@ -70,7 +70,6 @@
 }
 
 .cartao-conteudo {
-  flex: 1;
   padding: var(--size-fluid-2) var(--size-fluid-1);
 }
 

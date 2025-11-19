@@ -13,13 +13,13 @@
             "imgSrc": "/img/img-placeholder.svg",
             "imgAlt": "",
             "titulo": "Ecocardiograma pediátrico",
-            "texto": "Exame não invasivo para investigar a saúde cardiovascular de crianças e adolescentes."
+            "texto": "Avaliação detalhada do coração da criança com análise da sua estrutura e função."
           },
           {
             "imgSrc": "/img/img-placeholder.svg",
             "imgAlt": "",
             "titulo": "Eletrocardiograma pediátrico",
-            "texto": "Exame rápido e seguro para investigar ritmo e função cardíaca em crianças."
+            "texto": "Exame rápido para investigar o ritmo cardíaco em crianças."
           }
         ]
       }
@@ -33,13 +33,13 @@
             "imgSrc": "/img/img-placeholder.svg",
             "imgAlt": "",
             "titulo": "Consulta de telemedicina",
-            "texto": "Consultas online para gestantes e mães que buscam segunda opinião ou acompanhamento remoto."
+            "texto": "Consulta online para gestantes e famílias que buscam acompanhamento mesmo à distância."
           },
           {
             "imgSrc": "/img/img-placeholder.svg",
             "imgAlt": "",
             "titulo": "Consulta cardiológica fetal",
-            "texto": "Orientação especializada para gestantes com diagnóstico de cardiopatia fetal, em parceria com o obstetra."
+            "texto": "Atendimento voltado ao cuidado e acompanhamento do coração do bebê com diagnóstico de cardiopatia antes do nascimento, com orientações ao pais."
           },
           {
             "imgSrc": "/img/img-placeholder.svg",
