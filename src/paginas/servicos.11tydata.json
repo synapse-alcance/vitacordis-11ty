@@ -22,6 +22,28 @@
             "texto": "Exame rápido para investigar o ritmo cardíaco em crianças."
           }
         ]
+      },
+      {
+        "cartoes": [
+          {
+            "imgSrc": "/img/ultrassom-morfologico.webp",
+            "imgAlt": "Foto de detalhe da tela do exame, com mulher sorrindo ao fundo.",
+            "titulo": "Ultrassom morfológico",
+            "texto": "Exame realizado no 1º e no 2º trimestre. Inclui avaliação da anatomia fetal, rastreamento de síndromes cromossômicas, avaliação do risco de pré-eclâmpsia e do risco de parto prematuro."
+          },
+          {
+            "imgSrc": "/img/ultrassom-obstetrico.webp",
+            "imgAlt": "Mãos da médica operando o painel de controle do equipamento de ultrassom.",
+            "titulo": "Ultrassom obstétrico",
+            "texto": "Exame realizado para confirmação do sexo fetal a partir de 16 semanas e avaliação da anatomia fetal precocemente."
+          },
+          {
+            "imgSrc": "/img/ultrassom-obstetrico-doppler.webp",
+            "imgAlt": "Mãos da médica operando a sonda do equipamento de imagem sobre a barriga de uma mulher grávida.",
+            "titulo": "Ultrassom obstétrico com doppler e perfil biofísico fetal",
+            "texto": "Avalia o crescimento e bem-estar fetal através de diversos parâmetros. Feito no terceiro trimestre da gestação."
+          }
+        ]
       }
     ]
   },

@@ -17,10 +17,17 @@ estilosCss: ["servicos", ]
 <section id="exames">
   <div class="exames-wrapper">
     <h2 class="secao-titulo">Exames</h2>
-    <div class="exames-grupo">
-      {% for cartao in exames.grupos[0].cartoes %}
-        {% include "partials/cartao-vertical-estreito.njk" %}
-      {% endfor %}
+    <div class="exames-grupos-wrapper">
+      <div class="exames-grupo">
+        {% for cartao in exames.grupos[0].cartoes %}
+          {% include "partials/cartao-vertical-estreito.njk" %}
+        {% endfor %}
+      </div>
+      <div class="exames-grupo">
+        {% for cartao in exames.grupos[1].cartoes %}
+          {% include "partials/cartao-vertical-estreito.njk" %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </section>
