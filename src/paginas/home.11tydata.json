@@ -126,8 +126,8 @@
     "artigos": [
       {
         "inverter": true,
-        "imgSrc": "./img/socias.webp",
-        "imgAlt": "Foto das doutoras Flávia e Marida lado-a-lado, sorrindo com braços cruzados.",
+        "imgSrc": "./img/socia.webp",
+        "imgAlt": "Foto da doutora Flávia operando o computador.",
         "imgCentro": true,
         "pCondensado": true,
         "paragrafos": [
