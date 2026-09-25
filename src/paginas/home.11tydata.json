@@ -3,15 +3,19 @@
     "slides": [
       {
         "imgSrc": "./img/slide1.webp",
-        "imgAlt": "Doutoras Flávia e Marina lado a lado."
+        "imgAlt": "Doutoras Flávia de perfil."
       },
       {
         "imgSrc": "./img/slide2.webp",
-        "imgAlt": "Doutora Flávia com braços cruzados e mão sob o queixo."
+        "imgAlt": "Doutora Flávia de perfil."
       },
       {
         "imgSrc": "./img/slide3.webp",
-        "imgAlt": "Doutora Marina em foto de busto em frente a equipamento médico."
+        "imgAlt": "Doutora Flávia de perfil."
+      },
+      {
+        "imgSrc": "./img/slide4.webp",
+        "imgAlt": "Doutora Flávia de perfil."
       }
     ]
   },
@@ -30,7 +34,7 @@
             "conteudo": "Nosso espaço foi pensado para ser leve, acolhedor e acessível, com atendimento humanizado e condutas baseadas em evidências. Aqui, cada batida conta — e cada paciente é recebido com atenção, empatia e segurança."
           },
           {
-            "conteudo" :"Seja para rastreio de cardiopatias fetais ou acompanhamento clínico de alterações cadíacas em crianças, estamos prontos para cuidar com excelência e sensibilidade."
+            "conteudo": "Seja para rastreio de cardiopatias fetais ou acompanhamento clínico de alterações cadíacas em crianças, estamos prontos para cuidar com excelência e sensibilidade."
           }
         ]
       }
@@ -161,11 +165,11 @@
           },
           {
             "titulo": "Atendimento moderno e acessível",
-            "conteudo" :"Consultas presenciais, por telemedicina ou domiciliares, com prontuário digital  e acesso fácil ao médico."
+            "conteudo": "Consultas presenciais, por telemedicina ou domiciliares, com prontuário digital  e acesso fácil ao médico."
           },
           {
             "titulo": "Ambiente pensado para famílias",
-            "conteudo" :"Espaços acolhedores, linguagem simples e atenção às necessidades dos pais e dos pequenos."
+            "conteudo": "Espaços acolhedores, linguagem simples e atenção às necessidades dos pais e dos pequenos."
           }
         ]
       }
