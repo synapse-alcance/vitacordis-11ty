@@ -105,26 +105,6 @@
       },
       {
         "inverter": false,
-        "imgSrc": "/img/consultas-revisao.webp",
-        "imgAlt": "Profissional da área médica em trajes clínicos, estetoscópico ao redor do pescoço, tomando nota com prancheta nas mãos, com expressão de seriedade.",
-        "titulo": "Atendimento domiciliar, hospitalar ou por telemedicina",
-        "paragrafos": [
-          {
-            "conteudo": "Oferecemos atendimento domiciliar e hospitalar em Belo Horizonte e região metropolitana, incluindo consultas e exames."
-          },
-          {
-            "conteudo": "Realizamos também consultas por telemedicina para todos os estados."
-          },
-          {
-            "conteudo": "Visando uma maior comodidade para os pacientes e responsáveis, essa modalidade reduz deslocamentos e permite um ambiente mais familiar para os pequenos."
-          },
-          {
-            "conteudo": "Temos flexibilidade de horário e fornecemos os relatórios digitais."
-          }
-        ]
-      },
-      {
-        "inverter": true,
         "imgSrc": "/img/exame-precisao.webp",
         "imgAlt": "Foto de lado de profissional da área médica com expressão de concentração, com equipamentos de imageamento médico ao fundo.",
         "titulo": "Exames diagnósticos",
@@ -145,7 +125,7 @@
   "porque": {
     "artigos": [
       {
-        "inverter": false,
+        "inverter": true,
         "imgSrc": "./img/socias.webp",
         "imgAlt": "Foto das doutoras Flávia e Marida lado-a-lado, sorrindo com braços cruzados.",
         "imgCentro": true,
