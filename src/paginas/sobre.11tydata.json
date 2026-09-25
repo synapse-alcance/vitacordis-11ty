@@ -3,7 +3,7 @@
     "artigos": [
       {
         "inverter": true,
-        "imgSrc": "/img/socias_origem.webp",
+        "imgSrc": "/img/origem.webp",
         "imgPosX": "50%",
         "imgPosY": "0%",
         "titulo": "Nossa origem",
